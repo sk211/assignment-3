@@ -1,0 +1,261 @@
+/* google font  */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,700;0,800;1,100;1,400&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* header style  */
+
+header {
+  background-color: #264653;
+  color: white;
+  min-height: 100vh;
+}
+.header_top a.btn.btn-danger.ml-5 {
+  margin-left: 42px;
+}
+
+ul.navbar-nav.ms-auto.mb-2.mb-lg-0 a {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  font-feature-settings: "liga" off;
+
+  color: #ffffff;
+}
+
+.header_bottom p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.header_bottom h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+/* feature style  */
+section#feture_bike img {
+  width: 288px;
+  height: 243px;
+}
+section#feture_bike h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+section#feture_bike p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #e76f51;
+}
+
+img#grayScrlle {
+  filter: grayscale(80%);
+}
+
+/* news later style  */
+section.news.py-5 h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+}
+section.news.py-5 h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+/* client section  */
+section#clients img {
+  width: 200px;
+}
+
+section#clients .card {
+  text-align: center;
+  display: block;
+  padding: 12px 0;
+}
+
+section#clients h1,
+section#frequently h1,
+section.py-5.brand h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  /* identical to box height */
+  color: #0a0826;
+}
+section#accessories h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  /* identical to box height */
+  color: #fff;
+}
+section#clients span,
+section#frequently span {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  /* identical to box height */
+  color: #e76f51;
+}
+.star {
+  color: #e77c40;
+}
+
+section#clients .card-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #6c6c6c;
+}
+
+section#clients .text-primary {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  letter-spacing: 0.2px;
+
+  /* primary-color */
+  color: #23a6f0;
+}
+
+section#clients p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  letter-spacing: 0.2px;
+  padding-top: 15px;
+  color: #3d3f41;
+}
+/* frequently sytle  */
+section#frequently img {
+  width: 431.2px;
+  height: 423.5px;
+}
+
+/* accesscory sectoin  */
+
+section#accessories h5.card-title {
+  width: 100%;
+  border-top: 2px solid #c50703;
+  padding-top: 10px;
+  text-align: -webkit-center;
+}
+
+section#accessories {
+  /* background: url("./images/brand/section_background.jpg"); 
+  linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%), url(IMAGE_URL);*/
+  /* background-image: url("./images/brand/section_background.jpg"), */
+  /* linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)); */
+  background-image: linear-gradient(rgb(24 24 100 / 50%), rgb(18 18 17 / 85%)),
+    url("./images/brand/section_background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* modal  */
+input[type="number"] {
+  width: 60px;
+}
+/* footer style */
+footer.py-5 {
+  background: #161111;
+  color: white;
+}
+footer.py-5 {
+  background: #161111;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer.py-5 li {
+  list-style: none;
+  padding: 12px 12px;
+}
+
+footer.py-5 a {
+  color: #fff;
+}
+footer ul.d-flex {
+  padding: 0;
+  margin: 0;
+}
+footer.py-5 img {
+  width: 135px;
+  height: 40px;
+}
+footer.py-5 h2 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+footer.py-5 li {
+  display: inline;
+}
+
+/* medaui quary  */
+@media only screen and (max-width: 600px) {
+  .header_bottom h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 72px;
+  }
+  .header_bottom p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+  }
+  section#feture_bike h1,
+  section.news.py-5 h1,
+  section#clients h1,
+  section#frequently h1,
+  section.py-5.brand h1 {
+    font-size: 32px;
+    line-height: 72px;
+  }
+  section#clients span,
+  section#frequently span {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 72px;
+    color: #e76f51;
+  }
+}
